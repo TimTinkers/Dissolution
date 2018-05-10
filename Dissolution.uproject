@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.19",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "RamaSaveSystem",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/6c81d0b2b68f445cb24616fa39a462c2"
+		},
+		{
+			"Name": "LowEntryExtStdLib",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/846c2ad08f164f45b0335ecebf85361e"
+		},
+		{
+			"Name": "LowEntryHttpRequest",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/29d22bc9b02148d6bf6f57e1a0f660cc"
+		},
+		{
+			"Name": "LowEntryJson",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c108b5a8917c4c86873edf835237beab"
+		},
+		{
+			"Name": "LowEntrySocketConnection",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/a8cf875efc8d4be3b2ab5f369241797c"
+		}
+	]
+}
