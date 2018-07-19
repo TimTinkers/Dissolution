@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dissolution Login</title>
+
+    <meta name="description" content="Palm">
+    <meta name="author" content="Tim Clancy">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h1>
+              Dissolution Account <small>Dashboard</small>
+            </h1>
+            Your current wallet address is <span id="walletAddressDisplay">NOT FOUND</span>.
+          </div>
+
+          <div id="loginBox" class="panel panel-default">
+            <h2>
+              Login
+            </h2>
+            You can log into Dissolution here.
+            <br />
+
+            <form action="/login" method="post">
+              <input type="hidden" id="walletAddressInput" name="wallet" value="">
+              Username:
+              <br />
+              <input type="text" id="usernameInput" name="username">
+              <br>
+              Password:
+              <br />
+              <input type="text" id="passwordInput" name="password">
+              <br />
+              <input type="submit" value="Login">
+            </form> 
+            <br />
+            Or <button id="showSignup">Go to Signup</button>
+          </div>
+
+          <div id="signupBox" class="panel panel-default" style="display:none;">
+            <h2>
+              Signup
+            </h2>
+            You can sign up for Dissolution here.
+            <br />
+
+            <form action="/signup" method="post">
+              <input type="hidden" id="walletAddressInputSignup" name="wallet" value="">
+              Username:
+              <br />
+              <input type="text" id="usernameInputSignup" name="username">
+              <br>
+              Email:
+              <br />
+              <input type="text" id="emailInputSignup" name="email">
+              <br>
+              Password:
+              <br />
+              <input type="text" id="passwordInputSignup" name="password">
+              <br />
+              Confirm Password:
+              <br />
+              <input type="text" id="passwordConfirmInputSignup" name="passwordConfirm">
+              <br />
+              <input type="submit" value="Register">
+            </form> 
+            <br />
+            Or <button id="showLogin">Go to Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/loginScripts.js"></script>
+  </body>
+</html>

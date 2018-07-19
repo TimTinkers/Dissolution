@@ -1,0 +1,18 @@
+{
+  "name": "dissolution",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "latest",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "latest",
+    "cookie-parser": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "mysql": "latest"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
